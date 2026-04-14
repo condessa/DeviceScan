@@ -23,7 +23,7 @@ if [ -n "${VIRTUAL_ENV}" ]; then
     echo "  → Venv: ${VIRTUAL_ENV}"
 else
     PYTHON="python3"
-    echo "  → AVISO: venv não ativo. Recomendado: source venv/bin/activate"
+    echo "  → AVISO: venv não ativo. Recomendado: source venv/bin/activate ou uv init"
 fi
 
 # Detectar ficheiro principal
